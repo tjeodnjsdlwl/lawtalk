@@ -1,0 +1,218 @@
+.footer {
+    margin-top: 100px;
+    border-top: 1px solid #e0e0e0;
+    background-color: #fff;
+
+    .inner {
+        width: 100%;
+        max-width: 1080px;
+    }
+
+    .headline-m {
+        height: 20px;
+        font-weight: 700;
+        color: #333;
+    }
+}
+.foot-top {
+    display: flex;
+    padding-top: 60px;
+
+    .item {
+        display: flex;
+        justify-content: space-between;
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+
+        a {
+        }
+        span {
+            color: #999;
+        }
+    }
+
+    .notice-area {
+        width: 590px;
+
+        .headline-m {
+            width: 119px;
+            font-size: 14px;
+            line-height: 21px;
+        }
+
+        .list {
+            color: #555;
+            height: 74px;
+            margin-top: 5px;
+        }
+    }
+
+    .util-area {
+        display: flex;
+        gap: 28px;
+        width: 276px;
+        margin-left: 99px;
+        margin-top: 3px;
+
+        .headline-m {
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .list {
+            color: #757575;
+            width: 105px;
+            margin-top: 2px;
+        }
+    }
+}
+
+.foot-center {
+    display: flex;
+    margin-top: 9px;
+
+    .contact-area {
+        margin-top: 16px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19px;
+        color: #757575;
+
+        .link-wrap {
+            display: flex;
+            gap: 16px;
+
+            a {
+                height: 20px;
+                font-weight: 700;
+                line-height: 1;
+            }
+            .policy {
+                color: #f50;
+            }
+        }
+
+        .addr {
+            width: 597px;
+            margin-top: 2px;
+        }
+
+        .txt {
+        }
+    }
+
+    .banner-area {
+        display: flex;
+        gap: 16px;
+        width: 100%;
+        margin-left: 88px;
+
+        a {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 70px;
+            margin-top: 14px;
+            border-bottom: 1px solid #222;
+            border-top: 1px solid #222;
+        }
+        .story {
+            background-image: url(data:image/png;base64,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);
+            background-position: 61px 18px;
+            background-repeat: no-repeat;
+            background-size: 127px 49px;
+        }
+
+        .headline-m {
+            position: relative;
+            display: inline-flex;
+            font-size: 13px;
+            line-height: 17px;
+            color: #222;
+
+            &::after {
+                content: '';
+                position: relative;
+                right: -3px;
+                top: 10px;
+                display: block;
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background-color: #f50;
+            }
+        }
+        .desc {
+            padding-top: 9px;
+            font-size: 11px;
+            font-weight: 400;
+            color: #454545;
+        }
+    }
+}
+
+.foot-resp {
+    width: 100%;
+    margin-top: 28px;
+    padding-top: 9px;
+
+    p {
+        font-size: 12px;
+        line-height: 18px;
+        color: #757575;
+    }
+}
+
+.foot-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding-bottom: 59px;
+
+    .foot-copy {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 8px;
+
+        .copy {
+            width: 310px;
+            height: 29px;
+            margin-top: 9px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 12px;
+            font-weight: 800;
+            line-height: 29px;
+            color: #333;
+        }
+    }
+    .foot-logo {
+        path {
+            fill: #111;
+        }
+    }
+
+    .sns-list {
+        display: flex;
+        gap: 8px;
+
+        .sns-item {
+            height: 34px;
+            width: 34px;
+            color: #e0e0e0;
+
+            a {
+                color: #cfcfcf;
+                font-size: 32px;
+                font-weight: 400;
+            }
+
+            &:hover {
+                color: #999;
+            }
+        }
+    }
+}
